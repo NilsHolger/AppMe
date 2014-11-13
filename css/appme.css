@@ -1,0 +1,124 @@
+﻿html, body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 1.7;
+	background-color: #eeefe9;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Abel', sans-serif;
+}
+
+b, strong {
+	font-weight: 400;
+}
+
+.carousel-caption {
+	z-index: 10;
+}
+
+.carousel-inner > .item > img {
+	position: absolute;
+	top: 50px;
+	left: 0;
+	min-width: 100%;
+	height: auto;
+}
+
+.carousel-inner > .item {
+	height: 500px;
+}
+
+.star-intro-block {
+	background: url(../images/purpalt.png) repeat;
+	padding: 100px 15px 60px;
+	color: #fff;
+}
+
+.text-muted {
+	color: #e9e6de;
+	font-weight: 100;
+}
+
+.top-pad {
+	padding-top: 20px;
+}
+
+.base-pad {
+	margin-bottom: 30px;
+}
+
+.marketing {
+	background-color: #e9e6de;
+/*	min-height:295px;*/
+}
+
+hr {
+	border-top: 1px solid #c9c9c9;
+}
+
+.img-rotate {
+-moz-transform:rotate(330deg); /* Firefox 3.6 Firefox 4 */
+-webkit-transform:rotate(330deg); /* Safari */
+-o-transform:rotate(330deg); /* Opera */
+-ms-transform:rotate(330deg); /* IE9 */
+transform:rotate(330deg); /* W3C */
+width:340px;
+}
+
+.info {
+	background: #ffa753 url(../images/skyline.png) repeat-x bottom;
+	padding: 80px 0;
+}
+
+.info small {
+	color: #eeefe9;
+}
+
+.info a {
+	color: #fff;
+}
+
+.info a:hover {
+	color: #333;
+}
+
+.tab-pane {
+	padding: 20px 10px 0 10px;
+}
+
+.custom-footer {
+	background: url(../images/shattered.png) repeat;
+	padding: 80px 0 60px 0;
+}
+
+.custom-footer address, .custom-footer a, .custom-footer p {
+	color: #fff;
+}
+
+.custom-footer-space {
+	padding: 0 10px;
+}
+
+.container-padded {
+	padding: 100px 15px;
+}
+
+.sidebar {
+	background-color: #e9e6df;
+}
+
+.webapps p a {color: #ed7337; text-decoration: none;}
+
+
+.map {
+	height: 400px;
+	width: 100%;
+}
+
+/*@media(min-width:768px){
+	.carousel-inner > .item {
+	height: 700px;
+}
+}*/
